@@ -19,6 +19,7 @@
 		F568506E23144DC200ADAD30 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568506D23144DC200ADAD30 /* LoginRequest.swift */; };
 		F568507023144DDD00ADAD30 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568506F23144DDD00ADAD30 /* RegisterRequest.swift */; };
 		F568507223144E2C00ADAD30 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568507123144E2C00ADAD30 /* Review.swift */; };
+		F568507423144E8400ADAD30 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568507323144E8400ADAD30 /* NetworkingManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F568506D23144DC200ADAD30 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		F568506F23144DDD00ADAD30 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
 		F568507123144E2C00ADAD30 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		F568507323144E8400ADAD30 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				F568505D231427F900ADAD30 /* HairCareNetworkClient.swift */,
+				F568507323144E8400ADAD30 /* NetworkingManager.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 				F56850642314359F00ADAD30 /* HairStylist.swift in Sources */,
 				F568506A23144CFE00ADAD30 /* Login.swift in Sources */,
 				F568507223144E2C00ADAD30 /* Review.swift in Sources */,
+				F568507423144E8400ADAD30 /* NetworkingManager.swift in Sources */,
 				F568506C23144D4D00ADAD30 /* User.swift in Sources */,
 				F56850502314269F00ADAD30 /* HairCare.xcdatamodeld in Sources */,
 				F568505E231427F900ADAD30 /* HairCareNetworkClient.swift in Sources */,
