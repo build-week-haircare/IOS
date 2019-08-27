@@ -11,4 +11,6 @@ import Foundation
 struct HairStylist: Codable {
 	var name: String
 	var yearsOfExperience: Int
+	var likes: Int
+	var dislikes: Int
 }

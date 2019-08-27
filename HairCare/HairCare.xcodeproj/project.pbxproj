@@ -20,6 +20,8 @@
 		F568507023144DDD00ADAD30 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568506F23144DDD00ADAD30 /* RegisterRequest.swift */; };
 		F568507223144E2C00ADAD30 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568507123144E2C00ADAD30 /* Review.swift */; };
 		F568507423144E8400ADAD30 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568507323144E8400ADAD30 /* NetworkingManager.swift */; };
+		F56850762315923D00ADAD30 /* HairStylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56850752315923D00ADAD30 /* HairStylistController.swift */; };
+		F56850792315A28E00ADAD30 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56850782315A28E00ADAD30 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		F568506F23144DDD00ADAD30 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
 		F568507123144E2C00ADAD30 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		F568507323144E8400ADAD30 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
+		F56850752315923D00ADAD30 /* HairStylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairStylistController.swift; sourceTree = "<group>"; };
+		F56850782315A28E00ADAD30 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,13 +74,13 @@
 		F56850462314269F00ADAD30 /* HairCare */ = {
 			isa = PBXGroup;
 			children = (
+				F56850772315A21500ADAD30 /* CoreData */,
 				F568506623144B8E00ADAD30 /* Helpers */,
 				F5685065231435A500ADAD30 /* Models */,
 				F568505C231427D800ADAD30 /* Networking */,
 				F56850472314269F00ADAD30 /* AppDelegate.swift */,
 				F568504B2314269F00ADAD30 /* Main.storyboard */,
 				F5685051231426A000ADAD30 /* Assets.xcassets */,
-				F568504E2314269F00ADAD30 /* HairCare.xcdatamodeld */,
 				F5685053231426A000ADAD30 /* LaunchScreen.storyboard */,
 				F5685056231426A000ADAD30 /* Info.plist */,
 			);
@@ -88,6 +92,7 @@
 			children = (
 				F568505D231427F900ADAD30 /* HairCareNetworkClient.swift */,
 				F568507323144E8400ADAD30 /* NetworkingManager.swift */,
+				F56850752315923D00ADAD30 /* HairStylistController.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -110,6 +115,15 @@
 			children = (
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F56850772315A21500ADAD30 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				F568504E2314269F00ADAD30 /* HairCare.xcdatamodeld */,
+				F56850782315A28E00ADAD30 /* CoreDataStack.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +198,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F56850642314359F00ADAD30 /* HairStylist.swift in Sources */,
+				F56850762315923D00ADAD30 /* HairStylistController.swift in Sources */,
 				F568506A23144CFE00ADAD30 /* Login.swift in Sources */,
+				F56850792315A28E00ADAD30 /* CoreDataStack.swift in Sources */,
 				F568507223144E2C00ADAD30 /* Review.swift in Sources */,
 				F568507423144E8400ADAD30 /* NetworkingManager.swift in Sources */,
 				F568506C23144D4D00ADAD30 /* User.swift in Sources */,

@@ -25,13 +25,13 @@ enum Result<String> {
 
 struct NetworkManager {
 	static let shared = NetworkManager()
-	
+
 	let router = HairCareNetworkClient()
-	
+
 	private init() {
-		
+
 	}
-	
+
 	func handleNetworkResponse(_ response: HTTPURLResponse) -> Result<String> {
 		switch response.statusCode {
 		case 200...299: return .success
@@ -41,12 +41,12 @@ struct NetworkManager {
 		default: return .failure(NetworkResponse.failed.rawValue)
 		}
 	}
-	
+
 	func getObject<T: Codable>(_ data: Data?, _ response: URLResponse?, _ error: Error?,_ returnType: T.Type) -> (T?, String?) {
 		if error != nil {
 			return (nil, "Please check your network connection.")
 		}
-		
+
 		if let response = response as? HTTPURLResponse {
 			let result = self.handleNetworkResponse(response)
 			switch result {
@@ -54,7 +54,7 @@ struct NetworkManager {
 				guard let responseData = data else {
 					return (nil, NetworkResponse.noData.rawValue)
 				}
-				
+
 				do {
 					let decoder = JSONDecoder()
 					decoder.keyDecodingStrategy = .convertFromSnakeCase
@@ -69,12 +69,12 @@ struct NetworkManager {
 		}
 		return (nil, NetworkResponse.failed.rawValue)
 	}
-	
+
 	func getArray<T: Codable>(_ data: Data?, _ response: URLResponse?, _ error: Error?,_ returnType: T.Type) -> ([T]?, String?) {
 		if error != nil {
 			return (nil, "Please check your network connection.")
 		}
-		
+
 		if let response = response as? HTTPURLResponse {
 			let result = self.handleNetworkResponse(response)
 			switch result {
@@ -82,7 +82,7 @@ struct NetworkManager {
 				guard let responseData = data else {
 					return (nil, NetworkResponse.noData.rawValue)
 				}
-				
+
 				do {
 					let decoder = JSONDecoder()
 					decoder.keyDecodingStrategy = .convertFromSnakeCase

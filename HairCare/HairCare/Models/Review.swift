@@ -17,7 +17,7 @@ struct Review: Codable {
 	
 	enum CodingKeys: String, CodingKey {
 		case id
-		case userId = "reviewer"
+		case userId 
 		case ratings
 		case review
 		case bookId
