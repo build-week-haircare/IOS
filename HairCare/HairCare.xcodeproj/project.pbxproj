@@ -15,7 +15,6 @@
 		F568506C23144D4D00ADAD30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568506B23144D4D00ADAD30 /* User.swift */; };
 		F568506E23144DC200ADAD30 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568506D23144DC200ADAD30 /* LoginRequest.swift */; };
 		F568507023144DDD00ADAD30 /* RegisterRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568506F23144DDD00ADAD30 /* RegisterRequest.swift */; };
-		F568507223144E2C00ADAD30 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568507123144E2C00ADAD30 /* Review.swift */; };
 		F568507423144E8400ADAD30 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568507323144E8400ADAD30 /* NetworkingManager.swift */; };
 		F56850762315923D00ADAD30 /* HairStylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56850752315923D00ADAD30 /* HairStylistController.swift */; };
 		F56850792315A28E00ADAD30 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56850782315A28E00ADAD30 /* CoreDataStack.swift */; };
@@ -45,7 +44,6 @@
 		F568506B23144D4D00ADAD30 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F568506D23144DC200ADAD30 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
 		F568506F23144DDD00ADAD30 /* RegisterRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRequest.swift; sourceTree = "<group>"; };
-		F568507123144E2C00ADAD30 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
 		F568507323144E8400ADAD30 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		F56850752315923D00ADAD30 /* HairStylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairStylistController.swift; sourceTree = "<group>"; };
 		F56850782315A28E00ADAD30 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
@@ -127,7 +125,6 @@
 				F568506B23144D4D00ADAD30 /* User.swift */,
 				F568506D23144DC200ADAD30 /* LoginRequest.swift */,
 				F568506F23144DDD00ADAD30 /* RegisterRequest.swift */,
-				F568507123144E2C00ADAD30 /* Review.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -249,7 +246,6 @@
 				F56850792315A28E00ADAD30 /* CoreDataStack.swift in Sources */,
 				F5FB7D2B23182A2200163BD7 /* StylistCollectionViewCell.swift in Sources */,
 				F568507B2315A3E600ADAD30 /* HairSylist+Convenience.swift in Sources */,
-				F568507223144E2C00ADAD30 /* Review.swift in Sources */,
 				F5FB7D3A23182A4100163BD7 /* LogInViewController.swift in Sources */,
 				F5FB7D3B23182A4100163BD7 /* MyProfileViewController.swift in Sources */,
 				F5FB7D3723182A4100163BD7 /* StylistCollectionViewController.swift in Sources */,

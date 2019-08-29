@@ -9,9 +9,7 @@
 import Foundation
 import UIKit
 
-class HairStylist: Codable {
-    
-    
+class HairStylist {
 	var name: String
 	var yearsOfExperience: String
     var image: UIImage

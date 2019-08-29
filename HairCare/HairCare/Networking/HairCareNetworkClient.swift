@@ -8,29 +8,48 @@
 
 import Foundation
 
-struct HairCareNetworkClient {
+enum HTTPMethod: String {
+	case get = "GET"
+	case post = "POST"
+}
 
-	static let haircareURL = URL(string: "https://bw-hair-care-be.herokuapp.com/")!
 
-	func fetchHairStylist(completion: @escaping ([HairStylist]?, Error?) -> Void) {
-		URLSession.shared.dataTask(with: HairCareNetworkClient.haircareURL) { (data, _, error) in
+class HairCareNetworkClient {
+	
+	var user: User?
+
+	private let haircareURL = URL(string: "https://bw-hair-care-be.herokuapp.com/")!
+
+	func registerUser(with user: User, completion: @escaping (Error?) -> Void) {
+		let registerURL = haircareURL
+			.appendingPathComponent("auth")
+			.appendingPathComponent("register")
+		
+		var request = URLRequest(url: registerURL)
+		request.httpMethod = HTTPMethod.post.rawValue
+		request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+		
+		do {
+			request.httpBody = try JSONEncoder().encode(user)
+		} catch {
+			NSLog("Error encoding user object: \(error)")
+			completion(error)
+			return
+		}
+		
+		URLSession.shared.dataTask(with: request) { (_, response, error)  in
+			if let response = response as? HTTPURLResponse,
+				response.statusCode != 201 {
+				completion(NSError())
+				return
+			}
+			
 			if let error = error {
-				completion(nil, error)
+				NSLog("Error signing up: \(error)")
+				completion(error)
 				return
 			}
-
-			guard let data = data else {
-				completion(nil, NSError())
-				return
-			}
-
-			do {
-				let recipes = try JSONDecoder().decode([HairStylist].self, from: data)
-				completion(recipes, nil)
-			} catch {
-				completion(nil, error)
-				return
-			}
-			}.resume()
+			completion(nil)
+		}.resume()
 	}
 }
