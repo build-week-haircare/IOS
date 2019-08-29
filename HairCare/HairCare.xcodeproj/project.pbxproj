@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F56850482314269F00ADAD30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56850472314269F00ADAD30 /* AppDelegate.swift */; };
-		F568504D2314269F00ADAD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F568504B2314269F00ADAD30 /* Main.storyboard */; };
-		F56850502314269F00ADAD30 /* HairCare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F568504E2314269F00ADAD30 /* HairCare.xcdatamodeld */; };
 		F5685052231426A000ADAD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5685051231426A000ADAD30 /* Assets.xcassets */; };
 		F5685055231426A000ADAD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5685053231426A000ADAD30 /* LaunchScreen.storyboard */; };
 		F568505E231427F900ADAD30 /* HairCareNetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568505D231427F900ADAD30 /* HairCareNetworkClient.swift */; };
-		F56850642314359F00ADAD30 /* HairStylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56850632314359F00ADAD30 /* HairStylist.swift */; };
 		F568506A23144CFE00ADAD30 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568506923144CFE00ADAD30 /* Login.swift */; };
 		F568506C23144D4D00ADAD30 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568506B23144D4D00ADAD30 /* User.swift */; };
 		F568506E23144DC200ADAD30 /* LoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568506D23144DC200ADAD30 /* LoginRequest.swift */; };
@@ -22,18 +19,28 @@
 		F568507423144E8400ADAD30 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568507323144E8400ADAD30 /* NetworkingManager.swift */; };
 		F56850762315923D00ADAD30 /* HairStylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56850752315923D00ADAD30 /* HairStylistController.swift */; };
 		F56850792315A28E00ADAD30 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56850782315A28E00ADAD30 /* CoreDataStack.swift */; };
+		F568507B2315A3E600ADAD30 /* HairSylist+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = F568507A2315A3E600ADAD30 /* HairSylist+Convenience.swift */; };
+		F5FB7D2B23182A2200163BD7 /* StylistCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D2923182A2200163BD7 /* StylistCollectionViewCell.swift */; };
+		F5FB7D2C23182A2200163BD7 /* MyProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D2A23182A2200163BD7 /* MyProfileTableViewCell.swift */; };
+		F5FB7D3523182A4100163BD7 /* CreateProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D2E23182A4000163BD7 /* CreateProfileViewController.swift */; };
+		F5FB7D3623182A4100163BD7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D2F23182A4000163BD7 /* SettingsViewController.swift */; };
+		F5FB7D3723182A4100163BD7 /* StylistCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D3023182A4100163BD7 /* StylistCollectionViewController.swift */; };
+		F5FB7D3823182A4100163BD7 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D3123182A4100163BD7 /* EditProfileViewController.swift */; };
+		F5FB7D3923182A4100163BD7 /* SelectStylistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D3223182A4100163BD7 /* SelectStylistViewController.swift */; };
+		F5FB7D3A23182A4100163BD7 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D3323182A4100163BD7 /* LogInViewController.swift */; };
+		F5FB7D3B23182A4100163BD7 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D3423182A4100163BD7 /* MyProfileViewController.swift */; };
+		F5FB7D7323182A9D00163BD7 /* StylistController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D7223182A9D00163BD7 /* StylistController.swift */; };
+		F5FB7D7523182AF100163BD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5FB7D7423182AF100163BD7 /* Main.storyboard */; };
+		F5FB7D7723182B0A00163BD7 /* HairStylist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5FB7D7623182B0A00163BD7 /* HairStylist.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F56850442314269F00ADAD30 /* HairCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56850472314269F00ADAD30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F568504C2314269F00ADAD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F568504F2314269F00ADAD30 /* HairCare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HairCare.xcdatamodel; sourceTree = "<group>"; };
 		F5685051231426A000ADAD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5685054231426A000ADAD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5685056231426A000ADAD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F568505D231427F900ADAD30 /* HairCareNetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairCareNetworkClient.swift; sourceTree = "<group>"; };
-		F56850632314359F00ADAD30 /* HairStylist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HairStylist.swift; path = ../HairStylist.swift; sourceTree = "<group>"; };
 		F568506923144CFE00ADAD30 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
 		F568506B23144D4D00ADAD30 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F568506D23144DC200ADAD30 /* LoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRequest.swift; sourceTree = "<group>"; };
@@ -42,6 +49,19 @@
 		F568507323144E8400ADAD30 /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		F56850752315923D00ADAD30 /* HairStylistController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HairStylistController.swift; sourceTree = "<group>"; };
 		F56850782315A28E00ADAD30 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		F568507A2315A3E600ADAD30 /* HairSylist+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HairSylist+Convenience.swift"; sourceTree = "<group>"; };
+		F5FB7D2923182A2200163BD7 /* StylistCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylistCollectionViewCell.swift; sourceTree = "<group>"; };
+		F5FB7D2A23182A2200163BD7 /* MyProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileTableViewCell.swift; sourceTree = "<group>"; };
+		F5FB7D2E23182A4000163BD7 /* CreateProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileViewController.swift; sourceTree = "<group>"; };
+		F5FB7D2F23182A4000163BD7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F5FB7D3023182A4100163BD7 /* StylistCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylistCollectionViewController.swift; sourceTree = "<group>"; };
+		F5FB7D3123182A4100163BD7 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		F5FB7D3223182A4100163BD7 /* SelectStylistViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectStylistViewController.swift; sourceTree = "<group>"; };
+		F5FB7D3323182A4100163BD7 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		F5FB7D3423182A4100163BD7 /* MyProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		F5FB7D7223182A9D00163BD7 /* StylistController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StylistController.swift; sourceTree = "<group>"; };
+		F5FB7D7423182AF100163BD7 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F5FB7D7623182B0A00163BD7 /* HairStylist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HairStylist.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +94,14 @@
 		F56850462314269F00ADAD30 /* HairCare */ = {
 			isa = PBXGroup;
 			children = (
+				F5FB7D2D23182A3100163BD7 /* ViewControllers */,
+				F5FB7D2823182A0A00163BD7 /* Views */,
 				F56850772315A21500ADAD30 /* CoreData */,
-				F568506623144B8E00ADAD30 /* Helpers */,
+				F568506623144B8E00ADAD30 /* ModelControllers */,
 				F5685065231435A500ADAD30 /* Models */,
 				F568505C231427D800ADAD30 /* Networking */,
 				F56850472314269F00ADAD30 /* AppDelegate.swift */,
-				F568504B2314269F00ADAD30 /* Main.storyboard */,
+				F5FB7D7423182AF100163BD7 /* Main.storyboard */,
 				F5685051231426A000ADAD30 /* Assets.xcassets */,
 				F5685053231426A000ADAD30 /* LaunchScreen.storyboard */,
 				F5685056231426A000ADAD30 /* Info.plist */,
@@ -100,7 +122,7 @@
 		F5685065231435A500ADAD30 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				F56850632314359F00ADAD30 /* HairStylist.swift */,
+				F5FB7D7623182B0A00163BD7 /* HairStylist.swift */,
 				F568506923144CFE00ADAD30 /* Login.swift */,
 				F568506B23144D4D00ADAD30 /* User.swift */,
 				F568506D23144DC200ADAD30 /* LoginRequest.swift */,
@@ -110,20 +132,44 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		F568506623144B8E00ADAD30 /* Helpers */ = {
+		F568506623144B8E00ADAD30 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				F5FB7D7223182A9D00163BD7 /* StylistController.swift */,
 			);
-			path = Helpers;
+			path = ModelControllers;
 			sourceTree = "<group>";
 		};
 		F56850772315A21500ADAD30 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				F568504E2314269F00ADAD30 /* HairCare.xcdatamodeld */,
 				F56850782315A28E00ADAD30 /* CoreDataStack.swift */,
+				F568507A2315A3E600ADAD30 /* HairSylist+Convenience.swift */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		F5FB7D2823182A0A00163BD7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB7D2A23182A2200163BD7 /* MyProfileTableViewCell.swift */,
+				F5FB7D2923182A2200163BD7 /* StylistCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5FB7D2D23182A3100163BD7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5FB7D2E23182A4000163BD7 /* CreateProfileViewController.swift */,
+				F5FB7D3123182A4100163BD7 /* EditProfileViewController.swift */,
+				F5FB7D3323182A4100163BD7 /* LogInViewController.swift */,
+				F5FB7D3423182A4100163BD7 /* MyProfileViewController.swift */,
+				F5FB7D3223182A4100163BD7 /* SelectStylistViewController.swift */,
+				F5FB7D2F23182A4000163BD7 /* SettingsViewController.swift */,
+				F5FB7D3023182A4100163BD7 /* StylistCollectionViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,9 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5FB7D7523182AF100163BD7 /* Main.storyboard in Resources */,
 				F5685055231426A000ADAD30 /* LaunchScreen.storyboard in Resources */,
 				F5685052231426A000ADAD30 /* Assets.xcassets in Resources */,
-				F568504D2314269F00ADAD30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,17 +243,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F56850642314359F00ADAD30 /* HairStylist.swift in Sources */,
+				F5FB7D3923182A4100163BD7 /* SelectStylistViewController.swift in Sources */,
 				F56850762315923D00ADAD30 /* HairStylistController.swift in Sources */,
 				F568506A23144CFE00ADAD30 /* Login.swift in Sources */,
 				F56850792315A28E00ADAD30 /* CoreDataStack.swift in Sources */,
+				F5FB7D2B23182A2200163BD7 /* StylistCollectionViewCell.swift in Sources */,
+				F568507B2315A3E600ADAD30 /* HairSylist+Convenience.swift in Sources */,
 				F568507223144E2C00ADAD30 /* Review.swift in Sources */,
+				F5FB7D3A23182A4100163BD7 /* LogInViewController.swift in Sources */,
+				F5FB7D3B23182A4100163BD7 /* MyProfileViewController.swift in Sources */,
+				F5FB7D3723182A4100163BD7 /* StylistCollectionViewController.swift in Sources */,
+				F5FB7D3823182A4100163BD7 /* EditProfileViewController.swift in Sources */,
+				F5FB7D3623182A4100163BD7 /* SettingsViewController.swift in Sources */,
 				F568507423144E8400ADAD30 /* NetworkingManager.swift in Sources */,
 				F568506C23144D4D00ADAD30 /* User.swift in Sources */,
-				F56850502314269F00ADAD30 /* HairCare.xcdatamodeld in Sources */,
+				F5FB7D7723182B0A00163BD7 /* HairStylist.swift in Sources */,
 				F568505E231427F900ADAD30 /* HairCareNetworkClient.swift in Sources */,
 				F568506E23144DC200ADAD30 /* LoginRequest.swift in Sources */,
+				F5FB7D2C23182A2200163BD7 /* MyProfileTableViewCell.swift in Sources */,
+				F5FB7D7323182A9D00163BD7 /* StylistController.swift in Sources */,
 				F568507023144DDD00ADAD30 /* RegisterRequest.swift in Sources */,
+				F5FB7D3523182A4100163BD7 /* CreateProfileViewController.swift in Sources */,
 				F56850482314269F00ADAD30 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -215,14 +271,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F568504B2314269F00ADAD30 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F568504C2314269F00ADAD30 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F5685053231426A000ADAD30 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -408,19 +456,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F568504E2314269F00ADAD30 /* HairCare.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F568504F2314269F00ADAD30 /* HairCare.xcdatamodel */,
-			);
-			currentVersion = F568504F2314269F00ADAD30 /* HairCare.xcdatamodel */;
-			path = HairCare.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F568503C2314269F00ADAD30 /* Project object */;
 }

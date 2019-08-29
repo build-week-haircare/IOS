@@ -10,7 +10,7 @@ import Foundation
 
 struct HairCareNetworkClient {
 
-	static let haircareURL = URL(string: "")!
+	static let haircareURL = URL(string: "https://bw-hair-care-be.herokuapp.com/")!
 
 	func fetchHairStylist(completion: @escaping ([HairStylist]?, Error?) -> Void) {
 		URLSession.shared.dataTask(with: HairCareNetworkClient.haircareURL) { (data, _, error) in
